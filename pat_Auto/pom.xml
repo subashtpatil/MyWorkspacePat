@@ -1,0 +1,149 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pat_Auto</groupId>
+	<artifactId>pat_Auto</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<!--	&lt;!&ndash; https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java &ndash;&gt;
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>4.27.0</version>
+            </dependency>-->
+
+
+		<dependency>
+			<groupId>org.sikuli</groupId>
+			<artifactId>sikuli-api</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>io.github.bonigarcia</groupId> <artifactId>webdrivermanager</artifactId>
+			<version>4.0.0</version> </dependency> -->
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.4.3</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.2</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+
+		<!--	<dependency>
+                <groupId>com.aventstack</groupId>
+                <artifactId>extentreports</artifactId>
+                <version>4.0.6</version>
+            </dependency>
+-->
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+
+		<!-- "Javax.mail" is a Java API used for sending and receiving emails within
+
+
+	  Java applications, providing a platform-independent way to interact with
+	  various email protocols like SMTP, POP3, and IMAP, allowing developers to
+	  easily integrate email functionality into their programs
+-->
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
+
+
+
+	</dependencies>
+
+	<!--Maven Surefire is a plugin that runs the unit tests for a Maven application or project.
+                    It is used throughout the Maven build lifecycle's testing step.-->
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18.1</version>
+				<configuration>
+					<testFailureIgnore> false </testFailureIgnore>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/java/runner/testng.xml</suiteXmlFile>
+
+					</suiteXmlFiles>
+				</configuration>
+
+
+
+
+
+			</plugin>
+
+
+		</plugins>
+
+
+		<testResources>
+			<testResource>
+				<directory>src/test/resources/properties</directory>
+				<includes>
+					<include>log4j.properties</include>
+				</includes>
+			</testResource>
+		</testResources>
+
+
+	</build>
+</project>
