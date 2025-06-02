@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+    </line>
     <line>
       <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
     </line>
@@ -14,25 +23,67 @@
       <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
     </line>
     <line>
-      <![CDATA[Scrolled to and clicked on element  : LogOut      #####################      ]]>
+      <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
     </line>
     <line>
-      <![CDATA[Could not scroll to element  : Go Back To Login      #####################      ]]>
+      <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
     </line>
     <line>
-      <![CDATA[The getText method failed with msg : Timed out after 10 seconds. Unable to locate the element      #####################      ]]>
+      <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-19T03:23:59 IST" name="All Test Suite" finished-at="2025-02-19T03:25:00 IST" duration-ms="61658">
+  <suite started-at="2025-06-02T10:07:13 IST" name="All Test Suite" finished-at="2025-06-02T10:08:33 IST" duration-ms="80191">
     <groups>
     </groups>
-    <test started-at="2025-02-19T03:23:59 IST" name="F:/MyWorkspacePat/pat_Auto" finished-at="2025-02-19T03:25:00 IST" duration-ms="61658">
+    <test started-at="2025-06-02T10:07:13 IST" name="Chrome Test 1" finished-at="2025-06-02T10:08:27 IST" duration-ms="74418">
       <class name="com.Pat.TestCases.Tc_DDT_Login">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:23:59 IST" name="setExtent" finished-at="2025-02-19T03:23:59 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:13 IST" name="startExtent" finished-at="2025-06-02T10:07:13 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:24:00 IST" name="setup" finished-at="2025-02-19T03:24:11 IST" duration-ms="11241" status="PASS">
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:14 IST" name="setup" finished-at="2025-06-02T10:07:28 IST" duration-ms="13882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:24:11 IST" name="Login" data-provider="getXLData" finished-at="2025-02-19T03:25:00 IST" duration-ms="48985" status="FAIL">
+        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:28 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T10:07:50 IST" duration-ms="22130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,76 +102,6 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Timed out after 10 seconds. Unable to locate the element]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
-at com.Pat.PageObjects.LoginPage.Login(LoginPage.java:92)
-at com.Pat.TestCases.Tc_DDT_Login.Login(Tc_DDT_Login.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Enter your userName and password correct')]"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-U5ITSHIF', ip: '192.168.31.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Subhash\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fb63bcedb89c3a1369cd441fd9998d33
-*** Element info: {Using=xpath, value=//*[contains(text(),'Enter your userName and password correct')]}
-at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
@@ -135,36 +116,292 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
               <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
             </line>
             <line>
-              <![CDATA[Scrolled to and clicked on element  : LogOut      #####################      ]]>
+              <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
             </line>
             <line>
-              <![CDATA[Could not scroll to element  : Go Back To Login      #####################      ]]>
-            </line>
-            <line>
-              <![CDATA[The getText method failed with msg : Timed out after 10 seconds. Unable to locate the element      #####################      ]]>
+              <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:25:00 IST" name="tearDown" finished-at="2025-02-19T03:25:00 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:50 IST" name="tearDown" finished-at="2025-06-02T10:07:50 IST" duration-ms="429" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=FAILURE method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:25:00 IST" name="tearDown" finished-at="2025-02-19T03:25:00 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:51 IST" name="setup" finished-at="2025-06-02T10:07:59 IST" duration-ms="8334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:59 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T10:08:26 IST" duration-ms="27001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Auto@123, LoginType=Valid Login, username=subash.selenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="tearDown" finished-at="2025-06-02T10:08:26 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@1a482e36]" started-at="2025-02-19T03:25:00 IST" name="endReport" finished-at="2025-02-19T03:25:00 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="tearDown" finished-at="2025-06-02T10:08:26 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null
+at com.Pat.TestCases.BaseClass.tearDown(BaseClass.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:442)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:371)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endReport -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="endExtent" finished-at="2025-06-02T10:08:27 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
       </class> <!-- com.Pat.TestCases.Tc_DDT_Login -->
-    </test> <!-- F:/MyWorkspacePat/pat_Auto -->
+    </test> <!-- Chrome Test 1 -->
+    <test started-at="2025-06-02T10:07:13 IST" name="Edge Test 2" finished-at="2025-06-02T10:08:33 IST" duration-ms="80191">
+      <class name="com.Pat.TestCases.Tc_DDT_Login">
+        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:13 IST" name="startExtent" finished-at="2025-06-02T10:07:13 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:14 IST" name="setup" finished-at="2025-06-02T10:07:33 IST" duration-ms="19200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:33 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T10:07:55 IST" duration-ms="22200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Auto@123, LoginType=Valid Login, username=subash.selenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:55 IST" name="tearDown" finished-at="2025-06-02T10:07:57 IST" duration-ms="1406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:57 IST" name="setup" finished-at="2025-06-02T10:08:10 IST" duration-ms="13345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:10 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T10:08:32 IST" duration-ms="21461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Auto@123, LoginType=Valid Login, username=subash.selenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
+            </line>
+            <line>
+              <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:32 IST" name="tearDown" finished-at="2025-06-02T10:08:33 IST" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:33 IST" name="tearDown" finished-at="2025-06-02T10:08:33 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null
+at com.Pat.TestCases.BaseClass.tearDown(BaseClass.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:132)
+at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+at org.testng.internal.thread.ThreadUtil.execute(ThreadUtil.java:70)
+at org.testng.SuiteRunner.runInParallelTestMode(SuiteRunner.java:442)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:371)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:33 IST" name="endExtent" finished-at="2025-06-02T10:08:33 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.Pat.TestCases.Tc_DDT_Login -->
+    </test> <!-- Edge Test 2 -->
   </suite> <!-- All Test Suite -->
 </testng-results>

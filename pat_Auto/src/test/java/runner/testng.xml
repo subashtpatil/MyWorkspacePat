@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="F:/MyWorkspacePat/pat_Auto">
-        <parameter name="browser" value= "chrome" />
-        <classes><class name="com.Pat.TestCases.Tc_DDT_Login">
-            <methods><include name="Login"/></methods>
-        </class>
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+   <!-- <listeners>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"></listener>
+        &lt;!&ndash;<listener class-name="tests.listeners.CustomListener"></listener>&ndash;&gt;
+    </listeners>-->
+    <test preserve-order="true" name="Chrome Test 1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.Pat.TestCases.Tc_DDT_Login"></class>
+            <class name="com.Pat.TestCases.Tc_DDT_Login"></class>
+        </classes>
+    </test>
+    <test preserve-order="true" name="Edge Test 2">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="com.Pat.TestCases.Tc_DDT_Login"></class>
+            <class name="com.Pat.TestCases.Tc_DDT_Login"></class>
         </classes>
     </test>
 

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="F:/MyWorkspacePat/pat_Auto(failed)">
+<suite thread-count="4" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Chrome Test 1(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.Pat.TestCases.Tc_DDT_Login">
         <methods>
+          <include name="Login2"/>
           <include name="setup"/>
           <include name="setExtent"/>
-          <include name="Login" invocation-numbers="0"/>
           <include name="endReport"/>
+          <include name="Login" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Pat.TestCases.Tc_DDT_Login -->
     </classes>
-  </test> <!-- F:/MyWorkspacePat/pat_Auto(failed) -->
+  </test> <!-- Chrome Test 1(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

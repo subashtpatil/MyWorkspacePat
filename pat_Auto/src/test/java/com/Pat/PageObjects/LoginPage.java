@@ -1,35 +1,35 @@
 package com.Pat.PageObjects;
 
+import com.Pat.TestCases.BaseClass;
+import com.aventstack.chaintest.plugins.ChainTestListener;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.Pat.TestCases.BaseClass;
 import com.Pat.Utilities.myMethods;
 import com.aventstack.extentreports.Status;
 
 import static com.Pat.Utilities.myMethods.clickElement;
 import static com.Pat.Utilities.myMethods.enterText;
+import static java.sql.DriverManager.getDriver;
 
-public class LoginPage extends BaseClass{
+public class LoginPage extends BaseClass {
 
 	//WebDriverWait wait;
 
-	public LoginPage(WebDriver rdriver) {		
-		driver = rdriver;
+	public LoginPage(WebDriver driver) {
+		driver = driver;
 		//PageFactory.initElements(driver, this);
 		//wait = new WebDriverWait(driver, 60);
 
 
 		//this.signinPage = new SigninPageLocators();
-		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver,10);
+		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory( threadLocalDriver.get(),10);
 		PageFactory.initElements(factory, this);
 	}
 
@@ -68,34 +68,43 @@ public class LoginPage extends BaseClass{
 			if(HomeObj.isDisplayed()) {
 				String Homemsgtxt = myMethods.getText(HomeObj, "Home");
 				test.log(Status.INFO, "Login successful with Home Page displayed as : "+Homemsgtxt);
+				ChainTestListener.log("Login successful with Home Page displayed as : "+Homemsgtxt);
 				Reporter.log("Login successful with Home Page displayed as : "+Homemsgtxt);
 				Thread.sleep(2000);
 
 				if(LogOut.isDisplayed()) {
-					myMethods.moveToElementAndClick(LogOut, driver, "LogOut");
+					//myMethods.moveToElementAndClick(LogOut, driver, "LogOut");
+					myMethods.clickElement(LogOut,  "Log Off");
 				}
 				Thread.sleep(5000);
 
-				myMethods.moveToObj(goBackToLogin, driver, "Go Back To Login");
+				myMethods.clickElement(goBackToLogin, "Go Back To Login");
 				String actTxt=myMethods.getText(goBackToLogin,  "Go Back To Login");
-				Assert.assertEquals(actTxt, "Go back to log in");
+				Assert.assertEquals(actTxt, "SIGN-ON");
 				Thread.sleep(2000);
 				present=true;
 			}
 		}catch (NoSuchElementException e) {
 
 			test.log(Status.INFO, "Login UnSuccessful : "+e.getMessage());
+			ChainTestListener.log("Login UnSuccessful : "+e.getMessage());
 			Reporter.log("Login UnSuccessful : "+e.getMessage());
 			Thread.sleep(2000);	
 
 		}finally {
-			if((present==false)&&(ErrObj.isDisplayed())){
-				String Errormsgtxt= myMethods.getText(ErrObj, " Whoops! ");
+			try {
+				if ((present == false) && (ErrObj.isDisplayed())) {
+					String Errormsgtxt = myMethods.getText(ErrObj, " Whoops! ");
 
-				test.log(Status.FAIL, "Login failed with Error msg : "+Errormsgtxt);
-				Reporter.log("Login failed with Error msg : "+Errormsgtxt);
-				Thread.sleep(2000);	
-				driver.quit();
+					test.log(Status.FAIL, "Login failed with Error msg : " + Errormsgtxt);
+					Reporter.log("Login failed with Error msg : " + Errormsgtxt);
+					ChainTestListener.log("Login failed with Error msg : " + Errormsgtxt);
+					Thread.sleep(2000);
+
+				}
+			}catch (Exception e)
+			{
+			}
 			}
 
 		}
@@ -106,9 +115,6 @@ public class LoginPage extends BaseClass{
 
 
 
-
-
-}
 
 
 

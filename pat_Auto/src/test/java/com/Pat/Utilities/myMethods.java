@@ -1,8 +1,8 @@
 package com.Pat.Utilities;
 
-import java.io.File;
-import java.io.IOException;
-
+import com.Pat.TestCases.BaseClass;
+import com.aventstack.chaintest.plugins.ChainTestListener;
+import com.aventstack.extentreports.Status;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,8 +12,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.Pat.TestCases.BaseClass;
-import com.aventstack.extentreports.Status;
+import java.io.File;
+import java.io.IOException;
 
 public class myMethods extends BaseClass {
 
@@ -77,10 +77,12 @@ public static void enterText(WebElement element, String text, String elementName
     try {
         element.sendKeys(text);
         //this is for extent reports
+        ChainTestListener.log("The text entered in element  : " +elementName+ " is : "+ text);
         test.log(Status.INFO, "The text entered in element  : " +elementName+ " is : "+ text);
         //this is for Console reports
         Reporter.log(text + " : is the Value entered for WebElement : " + elementName+"      #####################      ", true);
     } catch (Exception e) {
+        ChainTestListener.log("The text WAS NOT entered in element  : " +elementName+ " is : "+ text);
         Reporter.log(text + " :  is not entered in the WebElement : " + elementName + " due to exception : " + e.getMessage()+"      #####################      ", true);
         test.log(Status.INFO, "The text  is not entered in the element  : " +elementName+ " Error is : "+ e.getMessage()+"      #####################      ");
         throw new AssertionError("Value is not entered in the WebElement" + elementName, e);
@@ -91,9 +93,11 @@ public static void enterText(WebElement element, String text, String elementName
 public static void clickElement(WebElement element, String elementName) {
 try {
 element.click();
+    ChainTestListener.log("WebElement : " + elementName + " is clicked"+"      #####################      ");
 Reporter.log("WebElement : " + elementName + " is clicked"+"      #####################      ", true);
 test.log(Status.INFO, elementName+ ": is clicked"+"      #####################      " );
 } catch (Exception e) {
+    ChainTestListener.log("WebElement : " + elementName + " IS NOT clicked"+"      #####################      ");
 test.log(Status.INFO, elementName+ ": is not clicked.  Error is :" + e.getMessage()+"      #####################      " );
 Reporter.log(elementName+ ": is not clicked.  Error is :"  + e.getMessage()+"      #####################      ", true);
 throw new AssertionError("unable to click " + elementName, e);
@@ -134,6 +138,7 @@ public static void moveToElementAndClick(/*WebElement from,*/ WebElement to, Web
     Actions actions = new Actions(driver);
    try {
        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", to);
+       to.click();
        // actions.clickAndHold(from).moveToElement(to).release(to).build().perform();
        test.log(Status.INFO,  "Scrolled to and clicked on element  : " + text +"      #####################      ");
        Reporter.log("Scrolled to and clicked on element  : " + text +"      #####################      ", true);
@@ -143,7 +148,10 @@ public static void moveToElementAndClick(/*WebElement from,*/ WebElement to, Web
    }
 }
 
-public static void moveToObj(/*WebElement from,*/ WebElement to, WebDriver driver, String text) {
+/*
+public static void moveToObj(*/
+/*WebElement from,*//*
+ WebElement to,  String text) {
     Actions actions = new Actions(driver);
      try {
     	 ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", to);
@@ -155,6 +163,7 @@ public static void moveToObj(/*WebElement from,*/ WebElement to, WebDriver drive
          test.log(Status.INFO,  "Could not scroll to element  : "+text+  "Error is : " + e.getMessage()+"      #####################      " );
      }
 }
+*/
 
 
 //**

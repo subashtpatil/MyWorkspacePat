@@ -11,10 +11,12 @@ import java.util.Hashtable;
 
 	public class getExcelData {
 
-	@DataProvider(name= "getXLData")
+	@DataProvider(name= "getXLData", parallel=true)
 	public static Object[][] getXLData(Method m) throws IOException{
 
 		String sheetName = m.getName();
+
+
 
 		String filepath= System.getProperty("user.dir")+"\\src\\test\\java\\com\\Pat\\TestData\\LoginData.xlsx";
 		
