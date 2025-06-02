@@ -8,9 +8,6 @@
       <![CDATA[Auto@123 : is the Value entered for WebElement : Password      #####################      ]]>
     </line>
     <line>
-      <![CDATA[WebElement : Log In is clicked      #####################      ]]>
-    </line>
-    <line>
       <![CDATA[subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]>
     </line>
     <line>
@@ -20,13 +17,16 @@
       <![CDATA[WebElement : Log In is clicked      #####################      ]]>
     </line>
     <line>
+      <![CDATA[WebElement : Log In is clicked      #####################      ]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
+    </line>
+    <line>
       <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
     </line>
     <line>
       <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
-    </line>
-    <line>
-      <![CDATA[Login successful with Home Page displayed as : Login Successfully]]>
     </line>
     <line>
       <![CDATA[WebElement : Log Off is clicked      #####################      ]]>
@@ -74,16 +74,16 @@
       <![CDATA[WebElement : Go Back To Login is clicked      #####################      ]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-02T10:07:13 IST" name="All Test Suite" finished-at="2025-06-02T10:08:33 IST" duration-ms="80191">
+  <suite started-at="2025-06-02T15:55:38 IST" name="All Test Suite" finished-at="2025-06-02T15:56:54 IST" duration-ms="75712">
     <groups>
     </groups>
-    <test started-at="2025-06-02T10:07:13 IST" name="Chrome Test 1" finished-at="2025-06-02T10:08:27 IST" duration-ms="74418">
+    <test started-at="2025-06-02T15:55:38 IST" name="Chrome Test 1" finished-at="2025-06-02T15:56:46 IST" duration-ms="68370">
       <class name="com.Pat.TestCases.Tc_DDT_Login">
-        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:13 IST" name="startExtent" finished-at="2025-06-02T10:07:13 IST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:55:38 IST" name="startExtent" finished-at="2025-06-02T15:55:38 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:14 IST" name="setup" finished-at="2025-06-02T10:07:28 IST" duration-ms="13882" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:55:39 IST" name="setup" finished-at="2025-06-02T15:55:51 IST" duration-ms="12475" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:28 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T10:07:50 IST" duration-ms="22130" status="PASS">
+        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:55:51 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T15:56:14 IST" duration-ms="22887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,18 +123,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:50 IST" name="tearDown" finished-at="2025-06-02T10:07:50 IST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:14 IST" name="tearDown" finished-at="2025-06-02T15:56:15 IST" duration-ms="385" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:51 IST" name="setup" finished-at="2025-06-02T10:07:59 IST" duration-ms="8334" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:15 IST" name="setup" finished-at="2025-06-02T15:56:23 IST" duration-ms="8252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:07:59 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T10:08:26 IST" duration-ms="27001" status="PASS">
+        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:23 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T15:56:45 IST" duration-ms="22117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,18 +174,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="tearDown" finished-at="2025-06-02T10:08:26 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:45 IST" name="tearDown" finished-at="2025-06-02T15:56:45 IST" duration-ms="296" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="tearDown" finished-at="2025-06-02T10:08:26 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:45 IST" name="tearDown" finished-at="2025-06-02T15:56:45 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null]]>
@@ -234,19 +234,19 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@4009e306]" started-at="2025-06-02T10:08:26 IST" name="endExtent" finished-at="2025-06-02T10:08:27 IST" duration-ms="1173" status="PASS">
+        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@63475ace]" started-at="2025-06-02T15:56:45 IST" name="endExtent" finished-at="2025-06-02T15:56:46 IST" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtent -->
       </class> <!-- com.Pat.TestCases.Tc_DDT_Login -->
     </test> <!-- Chrome Test 1 -->
-    <test started-at="2025-06-02T10:07:13 IST" name="Edge Test 2" finished-at="2025-06-02T10:08:33 IST" duration-ms="80191">
+    <test started-at="2025-06-02T15:55:38 IST" name="Edge Test 2" finished-at="2025-06-02T15:56:54 IST" duration-ms="75712">
       <class name="com.Pat.TestCases.Tc_DDT_Login">
-        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:13 IST" name="startExtent" finished-at="2025-06-02T10:07:13 IST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="startExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:55:38 IST" name="startExtent" finished-at="2025-06-02T15:55:38 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:14 IST" name="setup" finished-at="2025-06-02T10:07:33 IST" duration-ms="19200" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:55:39 IST" name="setup" finished-at="2025-06-02T15:55:53 IST" duration-ms="13844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,7 +257,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:33 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T10:07:55 IST" duration-ms="22200" status="PASS">
+        <test-method signature="Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:55:53 IST" name="Login" data-provider="getXLData" finished-at="2025-06-02T15:56:18 IST" duration-ms="24778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,18 +286,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:55 IST" name="tearDown" finished-at="2025-06-02T10:07:57 IST" duration-ms="1406" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:18 IST" name="tearDown" finished-at="2025-06-02T15:56:19 IST" duration-ms="1531" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Tc_DDT_Login.Login(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:07:57 IST" name="setup" finished-at="2025-06-02T10:08:10 IST" duration-ms="13345" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:19 IST" name="setup" finished-at="2025-06-02T15:56:29 IST" duration-ms="10043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:10 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T10:08:32 IST" duration-ms="21461" status="PASS">
+        <test-method signature="Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:29 IST" name="Login2" data-provider="getXLData" finished-at="2025-06-02T15:56:52 IST" duration-ms="22709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,18 +337,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </line>
           </reporter-output>
         </test-method> <!-- Login2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:32 IST" name="tearDown" finished-at="2025-06-02T10:08:33 IST" duration-ms="1302" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:52 IST" name="tearDown" finished-at="2025-06-02T15:56:53 IST" duration-ms="1416" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
+                <![CDATA[[TestResult name=Login2 status=SUCCESS method=Tc_DDT_Login.Login2(java.util.Hashtable)[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037] output=subash.selenium@gmail.com : is the Value entered for WebElement : UserName      #####################      ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:33 IST" name="tearDown" finished-at="2025-06-02T10:08:33 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:53 IST" name="tearDown" finished-at="2025-06-02T15:56:53 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because the return value of "java.lang.ThreadLocal.get()" is null]]>
@@ -397,7 +397,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@236e3f4e]" started-at="2025-06-02T10:08:33 IST" name="endExtent" finished-at="2025-06-02T10:08:33 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Pat.TestCases.Tc_DDT_Login@69fb6037]" started-at="2025-06-02T15:56:53 IST" name="endExtent" finished-at="2025-06-02T15:56:54 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtent -->
